@@ -1,0 +1,78 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.whiteout {
+  color: white;
+}
+
+.hero {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://butterflylanguagecom.files.wordpress.com/2017/03/tarot-fool.jpg?w=723');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 5;
+}
+
+.title {
+  font-family: 'Barrio', cursive;
+  font-size: 10rem;
+  font-weight: bold;
+}
+
+.titleEx {
+  display: none;
+  font-family: 'Barrio', cursive;
+  font-size: 10rem;
+  font-weight: bold;
+}
+
+
+.title2 {
+  display: none;
+  font-family: 'Barrio', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 8rem;
+  font-family: 'Barrio', cursive;
+  font-size: 2rem;
+}
+
+.hero2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url('https://image.ibb.co/gjguHx/3_preview.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: scale(5);
+  transition: all 20s;
+  border: solid 2rem black;
+}
