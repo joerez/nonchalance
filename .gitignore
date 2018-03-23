@@ -56,3 +56,7 @@ typings/
 
 # dotenv environment variables file
 .env
+
+/public/styles/animate.css
+public/styles/animate.css
+animate.css

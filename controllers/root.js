@@ -6,7 +6,7 @@ module.exports = (app) => {
 
 //root
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index.handlebars');
 })
 
 

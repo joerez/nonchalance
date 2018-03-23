@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 //methodOverride
-app.use(methidOverride('_method'));
+app.use(methodOverride('_method'));
 
 //Set up handlebars
 var exphbs = require('express-handlebars');
@@ -30,10 +30,10 @@ app.use(express.static(__dirname + '/public'));
 //end middleware
 
 //ROUTES
-require('./controllers/root.js');
+require('./controllers/root.js')(app);
 
 
-const port = process.env.PORT || 6000
+const port = process.env.PORT || 3000
 
 app.listen(port, () => {
   console.log(`Nonchalance listening on port ${port}!`);
