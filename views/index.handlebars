@@ -14,12 +14,41 @@
 
 <div class="hero2 whiteout">
   <h1 class="titleEx">EXPERIENCE<br>
-  NONCHALANCE</H1>
+                      NONCHALANCE
+  </h1>
 </div>
 
 
+<div class="divinevid">
 
+  <video muted id="myVideo">
+    <source src="divine.mp4" type="video/mp4">
+  </video>
+  <div class="content">
+
+    <script>
+
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+
+    function mutethis() {
+  if (video.muted) {
+      video.muted = false;
+      btn.innerHTML = "MUTE";
+  } else {
+      video.muted = true;
+      btn.innerHTML = "UNMUTE";
+  }
+}
+  </script>
+
+    <button id="myBtn" onclick="mutethis()">UNMUTE</button>
+  </div>
+
+</div>
 <h1 class="title2">Picture in your mind a cartoon character sleepwalking.</h1>
+<img class="cartoonWalker" src="https://pre00.deviantart.net/20ce/th/pre/f/2015/238/4/d/astral___game_character_walking_animation_by_reineinmyheart-d979g3n.png" />
 <div style="display: none;">
 Observe as they stutter, step, and stumble blindly out of bed, down the stairs and out the front door on to a busy street. They narrowly dodge impending danger without effort or awareness. Cars race by, they are turned around in a revolving door, and after the languid adventure they are somehow returned to bed unharmed. It's a certain attribute the cartoon character possesses: to be able to stumble through life with nary a care, prodigiously protected and provided for by the invisible hand of good fortune. This ability is called Divine Nonchalance.
 </div>

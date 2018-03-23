@@ -76,3 +76,52 @@ body {
   transition: all 20s;
   border: solid 2rem black;
 }
+
+.cartoonWalker {
+  display: none;
+  position: absolute;
+  left: -10rem;
+  top: 0rem;
+  transition: all 20s;
+}
+
+.divinevid {
+  display: none;
+  position: absolute;
+  top: 0; left: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
