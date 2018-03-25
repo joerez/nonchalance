@@ -10,7 +10,7 @@ $('.what').on("click", function() {
       var video = document.getElementById("myVideo");
       var btn = document.getElementById("myBtn");
 
-
+      $('.arrow').delay(1000).fadeOut(2000);
 
       video.play();
 

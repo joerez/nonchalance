@@ -160,7 +160,7 @@ body {
 .section1 {
   position: absolute;
   top: -6rem;
-  height: 90vh;
+  height: 110vh;
   background: linear-gradient(rgba(0, 0, 0,.8), rgba(52, 152, 219,.7)), url('http://www.theinstitutemovie.com/images/4.png');
   background-size: cover;
   background-position: center;
@@ -168,6 +168,26 @@ body {
   /*background-attachment: fixed;*/
   width: 100%;
   transform: skewY(-5deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
+
+.section2 {
+  z-index: 1;
+  position: absolute;
+  top: 50rem;
+  height: 90rem;
+  width: 100%;
+  background: url('https://amp.businessinsider.com/images/56218f419dd7cc1d008c2a58-750-338.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
