@@ -1,4 +1,5 @@
 $('.what').on("click", function() {
+  $('.landingPage').hide(0);
   $('.title').addClass('animated strobe');
   $('.hero').fadeOut(3000);
     $('.hero2').css('transform', 'scale(0)')
@@ -14,7 +15,9 @@ $('.what').on("click", function() {
       video.play();
 
       $('.divinevid').delay(60 * 1000).fadeOut(3000);
-      $('.hero').delay(60 * 1000).fadeIn(3000);
+      $('.hero').delay(60 * 1000).fadeIn(3000, function() {
+        $('.landingPage').show();
+      });
 
     })
 

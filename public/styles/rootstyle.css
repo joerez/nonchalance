@@ -58,6 +58,25 @@ body {
   font-size: 2rem;
 }
 
+
+.what {
+  border: solid 1px white;
+  background: rgba(0, 0, 0,1.0);
+  border-radius: 20px;
+  width: 20rem;
+  height: 5rem;
+  font-size: 1.75rem;
+  color: white;
+  transition: all 200ms;
+}
+
+.what:hover {
+  transform: scale(1.1);
+  /*background: rgba(0, 0, 0,.8);*/
+  color: white;
+  border: solid 1px white;
+}
+
 .hero2 {
   position: absolute;
   top: 0;
@@ -124,4 +143,35 @@ body {
 #myBtn:hover {
     background: #ddd;
     color: black;
+}
+
+/***************************
+        landingPage
+***************************/
+
+
+.landingPage {
+  position: absolute;
+  top: 100vh;
+  height:auto;
+  width: 100%;
+}
+
+.section1 {
+  position: absolute;
+  top: -6rem;
+  height: 90vh;
+  background: linear-gradient(rgba(0, 0, 0,.8), rgba(52, 152, 219,.7)), url('http://www.theinstitutemovie.com/images/4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  width: 100%;
+  transform: skewY(-5deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 }
