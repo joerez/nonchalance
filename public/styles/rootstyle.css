@@ -178,13 +178,13 @@ body {
   position: absolute;
   top: -6rem;
   height: 110vh;
-  background: linear-gradient(rgba(0, 0, 0,.8), rgba(52, 152, 219,.7)), url('http://www.theinstitutemovie.com/images/4.png');
+  background: linear-gradient(rgba(0, 0, 0,.7), rgba(0, 0, 0,.7)), url('http://www.kendall-heaton.com/wp-content/uploads/2014/12/580-california-6.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
   width: 100%;
-  transform: skewY(-5deg);
+  /*transform: skewY(-5deg);*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -194,14 +194,48 @@ body {
   z-index: 2;
 }
 
+
+.midSection {
+  z-index: 2;
+  position: absolute;
+  top: 70rem;
+  height: 55rem;
+  width: 100%;
+  background: #ecf0f1;
+  text-align: center;
+  align-items: center;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.testimonial {
+  width: 30rem;
+  height: 40rem;
+  background: white;
+  border-radius: 30px;
+  transition: all 200ms;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+.testimonial:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+
 .section2 {
   z-index: 1;
   position: absolute;
-  top: 50rem;
+  top: 120rem;
   height: 90rem;
   width: 100%;
-  background: url('https://www.issackelly.com/projects/quas.png?width=1200');
-  background-attachment: fixed;
+  background: url('https://photos-6.dropbox.com/t/2/AABQ4q1JCk-PyVT1IRur_Mok5qUJ4lNq43mPJkUomaVQDg/12/5479067/jpeg/32x32/3/1522195200/0/2/handoffalt.jpg/EOP7jAQY8osBIAIoAg/WKlLW2lOGt6JWUlOl0lVeEoJ6hZ_m5Wcqb5mTUaHcTU%2CJLRnUSIRG7IFJnIOAZzPbKKLY9yT7G1q3O9VJu3JokY?dl=0&size=2048x1536&size_mode=3');
+  /*background-attachment: fixed;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -211,4 +245,12 @@ body {
   align-items: center;
   text-align: center;
   color: white;
+}
+
+.midSection2 {
+  position: absolute;
+  top: 190rem;
+  height: 90rem;
+  width: 100%;
+  background: green;
 }
