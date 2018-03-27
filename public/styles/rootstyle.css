@@ -253,4 +253,6 @@ body {
   height: 90rem;
   width: 100%;
   background: green;
+  perspective: 2000px;
+  -webkit-perspective: 2000px;
 }
