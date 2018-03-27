@@ -77,6 +77,23 @@ body {
   border: solid 1px white;
 }
 
+.heroarrow {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  margin-left: auto; margin-right: auto;
+  margin-bottom: 2rem;
+  height: 3rem;
+  filter: invert(100%);
+  transition: all 200ms;
+}
+
+.heroarrow:hover {
+  animation-name: pulse;
+  animation-duration: 600ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
 .hero2 {
   position: absolute;
   top: 0;
