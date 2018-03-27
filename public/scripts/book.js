@@ -32,9 +32,8 @@ $('.bookBack').on("click", function() {
   $('.firstPage').css('transform', 'rotateY(0deg)');
   $('.cover').css('transform', 'rotateY(0deg)');
   $('.cover').css("color", "white");
-  $('.book').css("transform", "rotateY(40deg) rotateX(-39deg) scale(1.1)").show(0, function() {
-    $('')
-})
+  $('.book').addClass("hoveit");
+  $('.book').css("transform", "rotateY(-25deg)")
 })
 
 newPage('.secondPage');

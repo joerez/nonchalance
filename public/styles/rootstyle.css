@@ -249,10 +249,10 @@ body {
 
 .midSection2 {
   position: absolute;
-  top: 190rem;
-  height: 90rem;
+  top: 210rem;
+  height: 70rem;
   width: 100%;
-  background: green;
+  background: #ecf0f1;
   perspective: 2000px;
   -webkit-perspective: 2000px;
 }
