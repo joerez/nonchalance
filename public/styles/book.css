@@ -20,7 +20,7 @@
 }
 
 .hoveit:hover {
-  transform: rotateY(40deg) rotateX(-39deg) scale(1.1);
+  transform: rotateY(35deg) rotateX(0deg) scale(1.0);
 }
 
 .bookTop {
@@ -176,9 +176,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background: url('https://image.ibb.co/dpq4s7/Screen_Shot_2018_03_27_at_4_20_49_PM.png');
+  background-size: contain;
 }
-
-
 
 .turnOver {
   transform: rotateY(-180deg);

@@ -11,7 +11,7 @@ function newPage(element) {
 
 $('.cover').on("click", function() {
 
-  $('.book').css("transform", "rotateY(0deg) rotateX(-0deg) scale(1)");
+  $('.book').css("transform", "rotateY(-20deg) rotateX(-0deg) scale(1)");
   $('.book').removeClass('hoveit');
    $('.cover').css('transform', 'rotateY(-180deg)');
    $('.cover').css("color", "brown");
@@ -33,7 +33,7 @@ $('.bookBack').on("click", function() {
   $('.cover').css('transform', 'rotateY(0deg)');
   $('.cover').css("color", "white");
   $('.book').addClass("hoveit");
-  $('.book').css("transform", "rotateY(-25deg)")
+  $('.book').css("transform", "rotateY(35deg)")
 })
 
 newPage('.secondPage');
