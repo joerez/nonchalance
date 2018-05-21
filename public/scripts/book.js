@@ -14,7 +14,8 @@ $('.cover').on("click", function() {
   $('.book').css("transform", "rotateY(-20deg) rotateX(-0deg) scale(1)");
   $('.book').removeClass('hoveit');
    $('.cover').css('transform', 'rotateY(-180deg)');
-   $('.cover').css("color", "brown");
+   $('.cover').css('background', 'brown');
+   $('.cover').css("color", "rgba(0,0,0,0)");
    $(this).css('z-index', '20');
 })
 
